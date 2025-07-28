@@ -1,0 +1,114 @@
+h1 {
+  color: #333;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container h1 {
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+.container form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  /* border-radius: 5px */
+}
+.container form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.container form button {
+  background-color: #ff0000;
+  opacity: 0.8;
+}
+.container form button[type="submit"] {
+  padding: 10px 15px;
+  background-color: #0d8e2b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container form button:hover {
+  opacity: 1;
+}
+.container ul {
+  padding: 0;
+}
+.container ul li {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  /* grid-template-rows: auto; */
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+.container ul li:last-child {
+  border-bottom: none;
+}
+.container ul li span {
+  /* flex: 1; */
+  font-size: 18px;
+  color: #555;
+  font-family: poppins, sans-serif;
+}
+.container ul li .edit-button {
+  padding: 10px 15px;
+  background-color: #1b5cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container ul li .edit-button:hover {
+  background-color: #155bb5;
+}
+.container ul li .delete-button {
+  padding: 10px 15px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container ul li .delete-button:hover {
+  background-color: #c70000;
+}
+
+button {
+    font-family: monospace, sans-serif;
+}
+
+.loader{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border: 5px solid #f9f9f9; /* Light grey */
+    border-top: 10px solid #3498db; /* Blue */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.completed {
+    text-decoration: line-through;
+    color: #999 !important;
+    
+}

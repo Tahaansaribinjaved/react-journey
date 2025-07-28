@@ -1,13 +1,14 @@
 import CardContainer from "./components/Card/Card"
 import Greeting from "./components/Greeting"
 import "./App.css"
-import Counter from "./Apps/Counter"
+import Todolist from "./Apps/TODO-LIST/Todolist"
 
 const App = () => {
   return (
     <div>
       {/* <Greeting /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Todolist/>
     </div>
   )
 }
