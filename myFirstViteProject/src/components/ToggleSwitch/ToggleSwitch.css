@@ -1,0 +1,39 @@
+.outer {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    cursor: pointer;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    background-color: gray;
+
+}
+
+.inner {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    user-select: none;
+}
+
+.on {
+    background-color: green;
+
+    transform: translateX(70px) /* Move the switch to the right */;
+    transition: transform 0.3s ease;
+    /* justify-content: flex-end; */
+}
+
+.off {
+    background-color: red;
+    transform: translateX(0px) /* Move the switch to the left */;
+    transition: transform 0.3s ease;
+    /* justify-content: flex-start; */
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
+        "answer": "Paris"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Earth", "Jupiter", "Mars", "Saturn"],
+        "answer": "Jupiter"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Au", "Ag", "Pb", "Fe"],
+        "answer": "Au"
+    },
+    {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+        "answer": "Harper Lee"
+    },
+    {
+        "question": "What is the powerhouse of the cell?",
+        "options": ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
+        "answer": "Mitochondria"
+    }
+]

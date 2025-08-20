@@ -1,15 +1,13 @@
-import CardContainer from "./components/Card/Card"
-import Greeting from "./components/Greeting"
-import "./App.css"
-import Todolist from "./Apps/TODO-LIST/Todolist"
+import React from 'react'
+import Main from './Apps/Expense Tracker App/Main'
+
 
 const App = () => {
   return (
-    <div>
-      {/* <Greeting /> */}
-      {/* <Counter /> */}
-      <Todolist/>
-    </div>
+    <>
+      <h1>My First Vite Project</h1>
+      <Main />
+    </>
   )
 }
 
