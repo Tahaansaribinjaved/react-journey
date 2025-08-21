@@ -4,8 +4,7 @@ import Main from './Apps/Expense Tracker App/Main'
 
 const App = () => {
   return (
-    <>
-      
+    <>      
       <Main />
     </>
   )
