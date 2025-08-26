@@ -1,0 +1,28 @@
+.header {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  padding: 1rem;
+  border-bottom: 1px solid var(--light-gray);
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 1200px; */
+  margin: 0 ;
+  height: 50px;
+}
+
+.nav-item{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.nav-items-1 {
+  margin-right: 1rem;
+}
+
+.nav-items-2 {
+  margin-left: 1rem;
+}
