@@ -8,7 +8,7 @@ const Header = () => {
         <header className='header'>
             <nav className='nav-container'>
                 <div className='nav-item nav-items-1'>
-                    <h1> <FaWallet /> Income and Expense Tracker</h1>
+                    <h1> <FaWallet />  <span>Income and Expense Tracker</span></h1>
                     <p>Track your income and expenses with ease</p>
                 </div>
                 <div className='nav-item nav-items-2'>
